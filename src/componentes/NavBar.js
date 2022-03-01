@@ -7,6 +7,7 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
+import SearchBar from "./SearchBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function NavBar() {
@@ -40,7 +41,7 @@ export default function NavBar() {
             <Nav.Link href="#action7">Contato</Nav.Link>
             <Nav.Link href="#action8">Meus Pedidos</Nav.Link>
           </Nav>
-
+          <SearchBar />
           <img
             className="navbar-carrinho"
             src="imagens/icones/icone_carrinho.png"
