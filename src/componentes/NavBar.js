@@ -46,16 +46,6 @@ export default function NavBar() {
             src="imagens/icones/icone_carrinho.png"
             alt="logo"
           />
-
-          {/* <Form className="d-flex">
-            <FormControl
-              type="search"
-              placeholder=""
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Pesquisar</Button>
-          </Form> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
